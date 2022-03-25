@@ -1,0 +1,30 @@
+﻿@model Practica01.Models.Acciones
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Multiplicación</h1>
+
+<div class="color">
+    <form asp-controller="Home" asp-action="Multiplicacion">
+        <div class="card">
+            <label>Dato1</label>
+            @if(ViewBag.DatoN1V==0){
+                 <input type="number" placeholder="Coloca tu primer número" asp-for="Dato1" min="0" max="10"/>
+            }else{
+                <input type="number" placeholder="Coloca tu primer número" asp-for="Dato1" value="@ViewBag.DatoN1V" class="form-control" min="0" max="10"/>
+            }
+            <label>Dato2</label>
+            @if (ViewBag.DatoN2V == 0)
+            {
+                <input type="number" placeholder="Coloca tu segundo número" asp-for="Dato2" min="0" max="10"/>
+            }else{
+                <input type="number" placeholder="Coloca tu segundo número" asp-for="Dato2"  value="@ViewBag.DatoN2V" class="form-control" min="0" max="10"/>
+            }
+            <button class="btn btn-primary">Multiplicar datos</button>
+        </div>
+        <label>Resultado</label>
+    <label>@ViewBag.VariableAEnviar</label>
+    </form>
+</div>

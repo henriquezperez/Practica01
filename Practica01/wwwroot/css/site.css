@@ -1,0 +1,38 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #0D1117;
+  color: white;
+}
+
+.color{
+    background-color: #21252c;
+    padding-left:25%;
+    padding-right: 25%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.card{
+    background-color: #161B22;;
+    padding: 15%;
+}
+
+.esp{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
