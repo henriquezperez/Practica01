@@ -8,17 +8,17 @@
     
 </div>
 
-<table class="table">
+<table class="table table-dark table-striped">
     
   <thead>
     <tr>
       <th scope="col">Nombre</th>
-      <th scope="col">Nota Lab1 </th>
-      <th scope="col">Nota Lab2</th>
-      <th scope="col">Nota Lab3</th>
-      <th scope="col">Nota Parcial1</th>
-      <th scope="col">Nota Parcial2</th>
-      <th scope="col">Nota Parcial3</th>
+      <th scope="col">L1 </th>
+      <th scope="col">L2</th>
+      <th scope="col">L3</th>
+      <th scope="col">P1</th>
+      <th scope="col">P2</th>
+      <th scope="col">P3</th>
       <th scope="col">Promedio</th>
       </thead>
       <tr>
@@ -35,7 +35,7 @@
 <br/>
 <br/>
 
-<form asp-controller="Home" asp-action="Index">
+<form asp-controller="Estudiante" asp-action="Notas">
     <div class="notas">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Ingrese su nombre : </label>
@@ -43,33 +43,33 @@
     
   </div>
    <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Ingrese la  primera nota del laboratorio </label>
+    <label for="exampleInputEmail1" class="form-label">Primer Laboratorio</label>
     <input type="text" class="form-control" asp-for="Lab1">
     
   </div>
 
    <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Ingrese la  segunda nota del laboratorio </label>
+    <label for="exampleInputEmail1" class="form-label">Segundo Laboratorio</label>
     <input type="text" class="form-control" asp-for="Lab2">
     
   </div>
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Ingrese la tercera nota del laboratorio </label>
+    <label for="exampleInputEmail1" class="form-label">Tercer Laboratorio</label>
     <input type="text" class="form-control" asp-for="Lab3">
    
   </div>
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Ingrese la  primera nota del Parcial </label>
+    <label for="exampleInputEmail1" class="form-label">Primer Parcial</label>
     <input type="text" class="form-control" asp-for="Par1">
   </div>
   
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Ingrese la segunda nota del Parcial </label>
+    <label for="exampleInputEmail1" class="form-label">Segundo Parcial</label>
     <input type="text" class="form-control" asp-for="Par2">
    
   </div>
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Ingrese la tercera nota del Parcial </label>
+    <label for="exampleInputEmail1" class="form-label">Tercer Parcial</label>
     
     <input type="text" class="form-control" asp-for="Par3">
   </div>

@@ -4,7 +4,7 @@ namespace Practica01.Services
 {
     public interface INotas
     {
-        String NombreCompleto(Notas action);
+        String NombreCompleto(Notas nt);
         Double SumaLab(Notas nt);
         Double SumaPar(Notas nt);
         Double PorcLab(Notas nt);
