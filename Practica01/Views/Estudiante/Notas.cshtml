@@ -1,0 +1,79 @@
+@model Practica01.Models.Notas
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2 class="display-4">Bienvenido al calculo de notas</h2>
+    
+</div>
+
+<table class="table">
+    
+  <thead>
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Nota Lab1 </th>
+      <th scope="col">Nota Lab2</th>
+      <th scope="col">Nota Lab3</th>
+      <th scope="col">Nota Parcial1</th>
+      <th scope="col">Nota Parcial2</th>
+      <th scope="col">Nota Parcial3</th>
+      <th scope="col">Promedio</th>
+      </thead>
+      <tr>
+        <td>@ViewBag.Nombre</td>
+         <td>@ViewBag.Lab1</td> 
+         <td>@ViewBag.Lab2</td> 
+         <td>@ViewBag.Lab3</td> 
+         <td>@ViewBag.Par1</td> 
+         <td>@ViewBag.Par2</td> 
+         <td>@ViewBag.Par3</td> 
+         <td>@ViewBag.Prom</td>
+      </tr>
+  </table>
+<br/>
+<br/>
+
+<form asp-controller="Home" asp-action="Index">
+    <div class="notas">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Ingrese su nombre : </label>
+    <input type="text" class="form-controles" asp-for="Nombre">
+    
+  </div>
+   <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Ingrese la  primera nota del laboratorio </label>
+    <input type="text" class="form-control" asp-for="Lab1">
+    
+  </div>
+
+   <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Ingrese la  segunda nota del laboratorio </label>
+    <input type="text" class="form-control" asp-for="Lab2">
+    
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Ingrese la tercera nota del laboratorio </label>
+    <input type="text" class="form-control" asp-for="Lab3">
+   
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Ingrese la  primera nota del Parcial </label>
+    <input type="text" class="form-control" asp-for="Par1">
+  </div>
+  
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Ingrese la segunda nota del Parcial </label>
+    <input type="text" class="form-control" asp-for="Par2">
+   
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Ingrese la tercera nota del Parcial </label>
+    
+    <input type="text" class="form-control" asp-for="Par3">
+  </div>
+    <br />
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>

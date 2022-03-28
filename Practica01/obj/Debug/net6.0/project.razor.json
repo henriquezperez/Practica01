@@ -16313,6 +16313,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Mis archivos\\Escritorio\\Practica01\\Practica01\\Views\\Estudiante\\Notas.cshtml",
+      "TargetPath": "Views\\Estudiante\\Notas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Mis archivos\\Escritorio\\Practica01\\Practica01\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
