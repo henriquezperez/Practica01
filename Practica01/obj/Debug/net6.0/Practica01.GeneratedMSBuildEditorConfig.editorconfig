@@ -8,89 +8,89 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Practica01
 build_property.RootNamespace = Practica01
-build_property.ProjectDir = E:\Mis archivos\Escritorio\Practica01\Practica01\
+build_property.ProjectDir = e:\Mis archivos\Escritorio\Practica01\Practica01\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Mis archivos\Escritorio\Practica01\Practica01
+build_property.MSBuildProjectDirectory = e:\Mis archivos\Escritorio\Practica01\Practica01
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/DeleteDB.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/DeleteDB.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxEZWxldGVEQi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/GetAllDataBase.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/GetAllDataBase.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxHZXRBbGxEYXRhQmFzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/Index.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/InsertDB.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/InsertDB.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxJbnNlcnREQi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/Notas.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/Notas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxOb3Rhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/UpdateDB.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Estudiante/UpdateDB.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxVcGRhdGVEQi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Division.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Division.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXZpc2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Index.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Multiplicacion.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Multiplicacion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNdWx0aXBsaWNhY2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/NoMayores.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/NoMayores.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb01heW9yZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/PeticionTypeGet.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/PeticionTypeGet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQZXRpY2lvblR5cGVHZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Privacy.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Resta.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Resta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Suma.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/Suma.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdW1hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/View.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Home/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Shared/Error.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Shared/_ValidationScriptsPartial.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/_ViewImports.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/_ViewStart.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Mis archivos/Escritorio/Practica01/Practica01/Views/Shared/_Layout.cshtml]
+[e:/Mis archivos/Escritorio/Practica01/Practica01/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-utytn2e810

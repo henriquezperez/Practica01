@@ -49,6 +49,7 @@ namespace Practica01.Controllers
             ViewBag.list = _estudiante.GetAllEstudiantes();
             //var lista = EstudianteCL.GetAllEstudiantes();
             return View();
+            
         }
 
         public IActionResult Notas(Notas notas)
