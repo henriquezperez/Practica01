@@ -22,6 +22,7 @@ namespace Practica01.Controllers
             //es.Id = 1;
             //_estudiante.DeleteEstudiante(es);
             //_estudiante.GetAllEstudiantes();
+            //var lista = EstudianteCL.GetAllEstudiantes();
             return View();
         }
         //[HttpPost]
@@ -32,15 +33,21 @@ namespace Practica01.Controllers
             return View();
         }
 
-        public IActionResult DeleteDB(Estudiante id){
-                //int id;
-            _estudiante.DeleteEstudiante(id);
-            return View();
+        public IActionResult DeleteDB(int id){
+            //Estudiante id
+            //int id;
+            //estudiante.DeleteEstudiante(id);
+            Estudiante est = new Estudiante();
+            est.Id = id;
+            _estudiante.DeleteEstudiante(est);
+            return View("Index");
         }
 
         public IActionResult GetAllDataBase(){
             //List<Estudiante> lista = new List<Estudiante>();
+            //var lista = 
             ViewBag.list = _estudiante.GetAllEstudiantes();
+            //var lista = EstudianteCL.GetAllEstudiantes();
             return View();
         }
 
