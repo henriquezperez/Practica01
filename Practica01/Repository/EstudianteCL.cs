@@ -38,5 +38,14 @@ namespace Practica01.Repository
         {
             //throw new NotImplementedException();
         }
+
+        public Estudiante LoadInformation(Estudiante es)
+        {
+            var listarestudiante = app.estudiante.Where(x=> x.Id==es.Id).FirstOrDefault();
+            return listarestudiante;
+
+        }
+
+        
     }
 }

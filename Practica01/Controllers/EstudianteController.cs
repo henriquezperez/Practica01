@@ -32,6 +32,18 @@ namespace Practica01.Controllers
             //return RedirectToAction("Index");
             return View();
         }
+        
+        public IActionResult Load(int id) {
+            Estudiante es = new Estudiante();
+            es.Id=id;
+           var listarestudiante= _estudiante.LoadInformation(es);
+            return View(listarestudiante);
+        }
+
+        public IActionResult actua(Estudiante es){
+            _estudiante.UpdateEstudiante(es);
+            return RedirectToAction("Index");
+        }
 
         public IActionResult DeleteDB(int id){
             //Estudiante id

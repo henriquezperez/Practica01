@@ -20,6 +20,11 @@ namespace Practica01.BusinessLogic
             throw new NotImplementedException();
         }
 
+        public Estudiante LoadInformation(Estudiante es)
+        {
+            throw new NotImplementedException();
+        }
+
         public void UpdateEstudiante(Estudiante est)
         {
             throw new NotImplementedException();

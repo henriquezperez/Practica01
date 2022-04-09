@@ -27,7 +27,10 @@
         <td>@item.LastName</td>
         <td>
           <td>
-           Delete @Html.ActionLink("Estudiante","DeleteDB",new{id=@item.Id})
+          @Html.ActionLink("Delete","DeleteDB",new{id=@item.Id},new{@class="btn btn-danger"})
+          </td>
+          <td>
+          @Html.ActionLink("Load","Load",new{id=@item.Id},new{@class="btn btn-warning"})
           </td>
         </td>
       </tr>

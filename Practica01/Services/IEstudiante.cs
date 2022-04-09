@@ -8,6 +8,6 @@ namespace Practica01.Services
         public void UpdateEstudiante(Estudiante est);
         public void DeleteEstudiante(Estudiante est);
         public List<Estudiante> GetAllEstudiantes();
-
+        public Estudiante LoadInformation(Estudiante es);
     }
 }

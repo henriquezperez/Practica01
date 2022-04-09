@@ -16383,6 +16383,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Mis archivos\\Escritorio\\Practica01\\Practica01\\Views\\Estudiante\\Load.cshtml",
+      "TargetPath": "Views\\Estudiante\\Load.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Mis archivos\\Escritorio\\Practica01\\Practica01\\Views\\Estudiante\\InsertDB.cshtml",
       "TargetPath": "Views\\Estudiante\\InsertDB.cshtml",
       "FileKind": "mvc"
