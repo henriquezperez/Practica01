@@ -6,10 +6,10 @@
 }
 
 <!-- List<Estudiante> lista; -->
- 
- <a class="btn btn-success" asp-area="" asp-controller="Estudiante" asp-action="Index">Agregar</a>
 
- <h1>Lista de estudiante</h1>
+<a class="btn btn-success" asp-area="" asp-controller="Estudiante" asp-action="Index">Agregar</a>
+
+<h1>Lista de estudiante</h1>
 <table class="table table-dark table-striped" id="tablelist">
   <thead>
     <tr>
@@ -30,10 +30,8 @@
         <td>@item.LastName</td>
         <td>
           <td>
-          @Html.ActionLink("Delete","DeleteDB",new{id=@item.Id},new{@class="btn btn-danger"})
-          </td>
-          <td>
-          @Html.ActionLink("Load","Load",new{id=@item.Id},new{@class="btn btn-warning"})
+            @Html.ActionLink("Delete","DeleteDB",new{id=@item.Id},new{@class="btn btn-danger"})
+            @Html.ActionLink("Load","Load",new{id=@item.Id},new{@class="btn btn-warning"})
           </td>
         </td>
       </tr>
